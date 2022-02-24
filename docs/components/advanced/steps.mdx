@@ -20,14 +20,14 @@ import AttrTable from 'components/AttrTable'
 <AttrTable dataSource={[{
   attr: '步骤数据', 
   code: 'dataSource', 
-  type: 'object', 
+  type: 'Object', 
   demo: "[{ title: 'step1', content: 'Open' }, { title: 'step2', content: 'Put'}]", 
   dafault:'', 
   desc: ''
 }, {
   attr: '当前步骤', 
   code: 'current', 
-  type: 'number', 
+  type: 'Number', 
   demo: '1', 
   dafault:'', 
   desc: ''
@@ -58,7 +58,7 @@ import AttrTable from 'components/AttrTable'
   type: 'Boolean', 
   demo: 'false', 
   dafault:'', 
-  desc: ''
+  desc: '可选值:false,true'
 }, 
 {
   attr: '开启动效', 
@@ -66,12 +66,12 @@ import AttrTable from 'components/AttrTable'
   type: 'Boolean', 
   demo: "true", 
   dafault:'', 
-  desc: ''
+  desc: '可选值:false,true'
 }, 
 {
   attr: '点击按钮动作', 
   code: 'onClick', 
-  type: 'func', 
+  type: 'Function', 
   demo: "'function onClick(index) {}'", 
   dafault:'', 
   desc: ''
